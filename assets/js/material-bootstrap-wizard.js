@@ -40,7 +40,10 @@ $(document).ready(function(){
 		    email: {
 		      required: true,
 		      minlength: 3,
-		    }
+		    },
+            city: {
+                required: true
+            }
         },
 
         errorPlacement: function(error, element) {
